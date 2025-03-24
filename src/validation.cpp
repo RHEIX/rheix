@@ -1192,32 +1192,32 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
         nSubsidy = 5700; 
     } else if ((nPrevHeight > 207630) && (nPrevHeight < 414720)) {
         nSubsidy = 5144;
-    } else if ((nPrevHeight > 414720) && (nPrevHeight < 622080)) {
-        nSubsidy = 4887;
-    } else if ((nPrevHeight > 622080) && (nPrevHeight < 829440)) {
-        nSubsidy = 4642;     
-    } else if ((nPrevHeight > 829440) && (nPrevHeight < 1036800)) {
-        nSubsidy = 4410;      
-    } else if ((nPrevHeight > 1036800) && (nPrevHeight < 1244160)) {
-        nSubsidy = 4190;     
-    } else if ((nPrevHeight > 1244160) && (nPrevHeight < 1451520)) {
-        nSubsidy = 3980;  
+    } else if ((nPrevHeight > 290720) && (nPrevHeight < 422080)) {
+        nSubsidy = 4000;
+    } else if ((nPrevHeight > 422080) && (nPrevHeight < 629440)) {
+        nSubsidy = 3500;     
+    } else if ((nPrevHeight > 629440) && (nPrevHeight < 836800)) {
+        nSubsidy = 3000;      
+    } else if ((nPrevHeight > 836800) && (nPrevHeight < 1044160)) {
+        nSubsidy = 2800;     
+    } else if ((nPrevHeight > 1044160) && (nPrevHeight < 1451520)) {
+        nSubsidy = 2600;  
     } else if ((nPrevHeight > 1451520) && (nPrevHeight < 1658880)) {
-        nSubsidy = 3781;      
+        nSubsidy = 2400;      
     } else if ((nPrevHeight > 1658880) && (nPrevHeight < 1866240)) {
-        nSubsidy = 3592;     
+        nSubsidy = 2200;     
     } else if ((nPrevHeight > 1866240) && (nPrevHeight < 2073600)) {
-        nSubsidy = 3412;    
+        nSubsidy = 2000;    
     } else if ((nPrevHeight > 2073600) && (nPrevHeight < 2280960)) {
-        nSubsidy = 3242;     
+        nSubsidy = 1800;     
     } else if ((nPrevHeight > 2280960) && (nPrevHeight < 2488320)) {
-        nSubsidy = 3080;  
+        nSubsidy = 1600;  
     } else if ((nPrevHeight > 2488320) && (nPrevHeight < 2695680)) {
-        nSubsidy = 2962;
+        nSubsidy = 1400;
     } else if ((nPrevHeight > 2695680) && (nPrevHeight < 2903040)) {
-        nSubsidy = 2779;  
+        nSubsidy = 1200;  
     } else if ((nPrevHeight > 2903040) && (nPrevHeight < 3110400)) {
-        nSubsidy = 2640;
+        nSubsidy = 1000;
     } else if (nPrevHeight > 3110400) {
         nSubsidy = 20;
     }
