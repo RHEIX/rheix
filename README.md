@@ -34,7 +34,7 @@ From block 284720 to 324719 : 2100000 RHX
 
 From block 324720 to 354719 : 2500000 RHX
 
-From the block 354720 : 2800000 RHX
+After block 354720 : 2800000 RHX
 
 License
 -------
