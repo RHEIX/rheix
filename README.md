@@ -28,15 +28,13 @@ After block 272000:
 
 Smartnode Collateral
 
-From block 264720 to 284719 : 1950000 OSN
+From block 264720 to 284719 : 1950000 RHX
 
-From block 284720 to 314719 : 2100000 OSN
+From block 284720 to 324719 : 2100000 RHX
 
-From block 314720 to 354719 : 2300000 OSN
+From block 324720 to 354719 : 2500000 RHX
 
-From block 354720 to 414719 : 2500000 OSN
-
-From the block 414720 : 2800000 OSN
+From the block 354720 : 2800000 RHX
 
 License
 -------
