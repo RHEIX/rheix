@@ -562,8 +562,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x34f06290429b195fe245dfe6af4eff32c1ba48c709b44dc95d60cb5c4b6750b6"));
         assert(genesis.hashMerkleRoot == uint256S("0x3ce2d923c2d02042de5c2ed8b1664ec64f2688c00d3105255cb72f4ed3035618"));
         
-        vSeeds.emplace_back("gate.rheix.com");
-        vSeeds.emplace_back("mnode.rheix.com");
+        vSeeds.emplace_back("explorer.rheix.pro");
+        vSeeds.emplace_back("node.rheix.pro");
 
         // Rheix addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
@@ -582,7 +582,7 @@ public:
 //        	std::cout << "mainnet is disable" << endl;
 //        	exit(0);
 //        }
-        std::vector<FounderRewardStructure> rewardStructures = {  {INT_MAX, 15} };// founder/dev fee forever
+        std::vector<FounderRewardStructure> rewardStructures = {  {272000, 15},{INT_MAX, 1} };// founder/dev fee forever
         consensus.nFounderPayment = FounderPayment(rewardStructures, 1);
 		
         consensus.nCollaterals = SmartnodeCollaterals(
@@ -591,7 +591,9 @@ public:
             {176720, 1150000 * COIN},
             {220720, 1400000 * COIN},
             {264720, 1950000 * COIN},
-            {INT_MAX, 1950000 * COIN}
+	    {284720, 2100000 * COIN},
+	    {324720, 2500000 * COIN},
+            {INT_MAX, 2800000 * COIN}
           },
           { {3090, 0}, {INT_MAX, 56} }
         );
