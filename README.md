@@ -1,4 +1,4 @@
-Rheix Core Latest v2.0.54.3
+Rheix Core Latest v2.2.54.3
 ===========================
 
 |CI|master|develop|
@@ -8,6 +8,35 @@ Rheix Blockchain
 A new alternative in the world of cryptocurrencies. rheix is an open source peer-to-peer digital currency that enables instant, near-zero cost payments to anyone in the world.
 
 Rheix native coin is secure, fast and decentralized, supply controlled and market driven, demand based.
+Coin Specs
+
+• Algorithm : GhostRider (gr)
+
+• Max Supply 21.000.000.000 RHX
+
+• Block Time: 150 Seconds
+
+• Explorer https://explorer.rheix.pro/
+
+• Website https://rheix.pro/
+
+Reward distribution:
+
+After block 272000:
+
+• 56% Smartnode, 53% Miner Reward, 1% Foundation Fund
+
+Smartnode Collateral
+
+From block 264720 to 284719 : 1950000 OSN
+
+From block 284720 to 314719 : 2100000 OSN
+
+From block 314720 to 354719 : 2300000 OSN
+
+From block 354720 to 414719 : 2500000 OSN
+
+From the block 414720 : 2800000 OSN
 
 License
 -------
