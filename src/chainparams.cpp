@@ -583,7 +583,7 @@ public:
 //        	exit(0);
 //        }
         std::vector<FounderRewardStructure> rewardStructures = { 
-	    {272100, 15}, // 15% until block 272100
+	    {269400, 15}, // 15% until block 272100
 	    {INT_MAX, 0}  // 0% founder/dev fee from here on until end
 	    };
         consensus.nFounderPayment = FounderPayment(rewardStructures, 1, "R9YJuEyKdQ1CgeHBA3zJfVyhKfsjNrWSPG");	
@@ -594,13 +594,13 @@ public:
             {176720, 1150000 * COIN},
             {220720, 1400000 * COIN},
             {264720, 1950000 * COIN},
-	    {272110, 1950000 * COIN},
-	    {272120, 2000000 * COIN},
+	    {269410, 1950000 * COIN},
+	    {269420, 2000000 * COIN},
             {INT_MAX, 2100000 * COIN}
           },
           { 
 	     {3090, 0},// No masternode
-	     {272100, 56},// Masternode reward 56%
+	     {269400, 56},// Masternode reward 56%
 	     {INT_MAX, 50} } // After block 272100, 50% reward for masternode, 50% miner
         );
         //FutureRewardShare defaultShare(0.8,0.2,0.0);
