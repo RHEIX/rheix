@@ -564,6 +564,13 @@ public:
         
         vSeeds.emplace_back("explorer.rheix.pro");
         vSeeds.emplace_back("node.rheix.pro");
+	vSeeds.emplace_back("130.61.189.205");
+	vSeeds.emplace_back("135.125.204.229");
+	vSeeds.emplace_back("167.86.119.78");
+	vSeeds.emplace_back("178.251.69.130");
+	vSeeds.emplace_back("185.250.243.159");
+	vSeeds.emplace_back("2.56.97.203");
+	vSeeds.emplace_back("78.46.67.214");
 
         // Rheix addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
