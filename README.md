@@ -22,19 +22,17 @@ Coin Specs
 
 Reward distribution:
 
-After block 268000
+After block 272100
 
-• 56% Smartnode, 53% Miner Reward, 1% Foundation Fund
+• 50% Smartnode, 50% Miner Reward, 0% Foundation Fund
 
 Smartnode Collateral
 
-From block 264720 to 268120 : 1950000 RHX
+From block 264720 to 272110 : 1950000 RHX
 
-From block 268120 to 324719 : 2100000 RHX
+From block 272111 to 272120 : 2000000 RHX
 
-From block 324720 to 354719 : 2500000 RHX
-
-After block 354720 : 2800000 RHX
+After block 272120 : 2100000 RHX
 
 License
 -------
