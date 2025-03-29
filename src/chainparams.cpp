@@ -589,27 +589,21 @@ public:
 //        	std::cout << "mainnet is disable" << endl;
 //        	exit(0);
 //        }
-        std::vector<FounderRewardStructure> rewardStructures = { 
-	    {272100, 15}, // 15% until block 272100
-	    {INT_MAX, 0}  // 0% founder/dev fee from here on until end
-	    };
-        consensus.nFounderPayment = FounderPayment(rewardStructures, 1, "R9YJuEyKdQ1CgeHBA3zJfVyhKfsjNrWSPG");	
-	    
-        consensus.nCollaterals = SmartnodeCollaterals(
-          { {88720, 850000 * COIN},
-            {132720, 950000 * COIN},
-            {176720, 1150000 * COIN},
-            {220720, 1400000 * COIN},
-            {264720, 1950000 * COIN},
-	    {272110, 1950000 * COIN},
-	    {272120, 2000000 * COIN},
-            {INT_MAX, 2100000 * COIN}
-          },
-          { 
-	     {3090, 0},// No masternode
-	     {272100, 56},// Masternode reward 56%
-	     {INT_MAX, 50} } // After block 272100, 50% reward for masternode, 50% miner
-        );
+        // For founder rewards: 15% fee up to block 275720, then 0% afterwards.
+std::vector<FounderRewardStructure> rewardStructures = { {275720, 15}, {INT_MAX, 0} };
+consensus.nFounderPayment = FounderPayment(rewardStructures, 1);
+
+// For smartnode rewards: 56% up to block 275720, then 50% afterwards.
+consensus.nCollaterals = SmartnodeCollaterals(
+  { {88720, 850000 * COIN},
+    {132720, 950000 * COIN},
+    {176720, 1150000 * COIN},
+    {220720, 1400000 * COIN},
+    {272720, 1950000 * COIN},      // Changed from 264720 to 275720
+    {INT_MAX, 2100000 * COIN}       // Changed from 1950000 to 2100000
+  },
+  { {3090, 0}, {275720, 56}, {INT_MAX, 50} }  // smartnode reward percentage is 56% until block 275720, then 50%
+);
         //FutureRewardShare defaultShare(0.8,0.2,0.0);
         consensus.nFutureRewardShare = Consensus::FutureRewardShare(0.8,0.2,0.0);
 
