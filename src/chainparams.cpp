@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2020 The Dash Core developers
-// Copyright (c) 2020-2022 The Rheix developers
+// Copyright (c) 2020-2025 The Rheix developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -564,13 +564,13 @@ public:
         
         vSeeds.emplace_back("explorer.rheix.pro");
         vSeeds.emplace_back("node.rheix.pro");
-	vSeeds.emplace_back("130.61.189.205");
-	vSeeds.emplace_back("135.125.204.229");
-	vSeeds.emplace_back("167.86.119.78");
-	vSeeds.emplace_back("178.251.69.130");
+	vSeeds.emplace_back("38.242.236.173");
+	vSeeds.emplace_back("75.119.137.26");
+	vSeeds.emplace_back("154.53.34.72");
+	vSeeds.emplace_back("90.47.48.195");
 	vSeeds.emplace_back("185.250.243.159");
-	vSeeds.emplace_back("2.56.97.203");
-	vSeeds.emplace_back("78.46.67.214");
+	vSeeds.emplace_back("[2a03:cfc0:8000:13::c303:de3b]");
+	vSeeds.emplace_back("212.56.41.103");
 
         // Rheix addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
