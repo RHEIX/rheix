@@ -562,15 +562,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x34f06290429b195fe245dfe6af4eff32c1ba48c709b44dc95d60cb5c4b6750b6"));
         assert(genesis.hashMerkleRoot == uint256S("0x3ce2d923c2d02042de5c2ed8b1664ec64f2688c00d3105255cb72f4ed3035618"));
         
-        vSeeds.emplace_back("explorer.rheix.pro");
-        vSeeds.emplace_back("node.rheix.pro");
-	vSeeds.emplace_back("38.242.236.173");
-	vSeeds.emplace_back("75.119.137.26");
-	vSeeds.emplace_back("154.53.34.72");
-	vSeeds.emplace_back("90.47.48.195");
-	vSeeds.emplace_back("185.250.243.159");
-	vSeeds.emplace_back("[2a03:cfc0:8000:13::c303:de3b]");
-	vSeeds.emplace_back("212.56.41.103");
+	vSeeds.clear(); // no dnsseeds
 
         // Rheix addresses start with 'R'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
