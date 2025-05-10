@@ -1,4 +1,4 @@
-Rheix Core Latest v2.2.54.3
+Rheix Core Latest v2.3.54.3
 ===========================
 
 |CI|master|develop|
@@ -27,8 +27,6 @@ After block 275700
 • 49% Smartnode, 50% Miner Reward, 1% Foundation Fund
 
 Smartnode Collateral
-
-From block 264720 to 275700 : 1950000 RHX
 
 After block 275700 : 2100000 RHX
 
